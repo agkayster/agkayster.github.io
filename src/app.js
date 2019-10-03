@@ -1,10 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+
+import Home from './components/pages/Home'
+import About from './components/pages/About'
+
 class App extends React.Component{
   render(){
     return(
-      <h1>Hello World</h1>
+      <main>
+        <Home />
+        <About />
+      </main>
     )
   }
 }
