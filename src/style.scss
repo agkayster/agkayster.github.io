@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Ubuntu&display=swap');
+
+$family-primary: 'Domine', cursive;
+$family-secondary: 'Ubuntu', sans-serif;
+
+$navbar-background-color: #444444;
+
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Domine', serif;
+	-webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-body, .hero-sub {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-body {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem;
+}
+
+.hero-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
