@@ -3,8 +3,8 @@ import React from 'react'
 class About extends React.component{
   render(){
     return(
-      <section className = "section">
-        <div className= "container">
+      <section className ="section">
+        <div className="container">
           <div className="columns">
             <div className="column">
               <h2 className="title is-2">About</h2>
