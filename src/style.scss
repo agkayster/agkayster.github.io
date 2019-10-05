@@ -4,6 +4,8 @@ $family-primary: 'Domine', cursive;
 $family-secondary: 'Ubuntu', sans-serif;
 
 $navbar-background-color: #444444;
+$lime: #91ff35;
+
 
 
 *::before,
@@ -40,3 +42,37 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
+// ====================================================== > Skills
+
+.tech-logos {
+    font-size: 16px;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    color: $lime;
+    padding: 6px;
+    width: 105px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+
+    img {
+      height: 42px;
+      color: #4a4a4a;
+    }
+    &:hover {
+      img {
+        transform: scale(2);
+        transition: 0.7s ease;
+      }
+
+      span {
+        opacity: 0;
+        display: none;
+      }
+    }
+  }
