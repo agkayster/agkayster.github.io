@@ -21,6 +21,10 @@ class Skills extends React.Component{
                   <img src="./images/python_logo.svg" />
                   <span className="tech-logos">PYTHON</span>
                 </li>
+                <li >
+                  <img src="./images/bulma_logo.svg" />
+                  <span className="tech-logos">BULMA</span>
+                </li>
               </ul>
             </div>
           </div>
