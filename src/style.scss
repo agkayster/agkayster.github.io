@@ -44,7 +44,12 @@ body {
 }
 // ====================================================== > Skills
 
-.tech-logos {
+.tech-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  .tech-logos {
     font-size: 16px;
   }
   li {
@@ -76,3 +81,4 @@ body {
       }
     }
   }
+}
