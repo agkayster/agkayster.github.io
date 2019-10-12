@@ -5,6 +5,10 @@ import Navbar from './components/common/Navbar'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Skills from './components/pages/Skills'
+import Projects from './components/pages/Projects'
+import Footer from './components/pages/Footer'
+
+import '@fortawesome/fontawesome-free/js/all.js'
 
 
 import 'bulma'
@@ -18,7 +22,10 @@ class App extends React.Component{
         <Home />
         <About />
         <Skills />
+        <Projects />
+        <Footer />
       </main>
+
     )
   }
 }

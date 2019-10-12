@@ -4,10 +4,10 @@ class About extends React.Component{
   render(){
     return(
       <section className = "section">
-        <div id="about" className= "container">
+        <div id="about" className= "aboutcontainer">
           <div className="columns">
             <div className="column">
-              <h2 className="title is-2">about the developer.</h2>
+              <h2 className="title is-2 abouttitle">about the developer.</h2>
               <div className="contentcontainer">
                 <div className="intro">
                   <p className="introcontent"> My name is Ejike Chiboka. A graduate of Software Engineering Immersive Course at General Assembly, London and currently looking for opportunities as a Full Stack Developer.<br />
