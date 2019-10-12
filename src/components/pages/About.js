@@ -3,7 +3,7 @@ import React from 'react'
 class About extends React.Component{
   render(){
     return(
-      <section className = "section">
+      <section className = "section about">
         <div id="about" className= "aboutcontainer">
           <div className="columns">
             <div className="column">

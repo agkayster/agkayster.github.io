@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = ()=> {
   return(
-    <section className="section">
+    <section className="section home">
       <div className="hero-body">
         <div className="container mobile">
           <h1 className="home title is-1">Ejike Chiboka</h1>

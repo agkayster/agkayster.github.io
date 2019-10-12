@@ -3,7 +3,7 @@ import React from 'react'
 class Skills extends React.Component{
   render(){
     return(
-      <section className = "section">
+      <section className = "section skills">
         <div id="skills" className= "skillscontainer">
           <div className="columns is-multiline">
             <div className="column is-full-desktop is-full-tablet">

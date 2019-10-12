@@ -55,7 +55,7 @@ class Projects extends React.Component{
   render(){
     const classes = 'column is-mutiline is-half-desktop is-full-tablet is-full-mobile'
     return(
-      <section className="section">
+      <section className="section projects">
         <div id="projects" className="projects">
 
           <div className="projectscontainer">
