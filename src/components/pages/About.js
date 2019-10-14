@@ -7,6 +7,7 @@ class About extends React.Component{
         <div id="about" className= "aboutcontainer">
           <div className="columns">
             <div className="column">
+              <img className="aboutlogo" src="https://imgur.com/07QH95m.png"/>
               <h2 className="title is-2 abouttitle">about the developer.</h2>
               <div className="contentcontainer">
                 <div className="intro">

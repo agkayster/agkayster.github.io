@@ -122,16 +122,43 @@ body {
 //======================================================= > Navbar
 .navbar {
   background-color:#444444;
+  margin-top: 5px;
+  .navbar-menu {
+    background-color: #444444;
+    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    padding: 0.5rem 0;
+    justify-content: center;
+  }
+  .navbar-start {
+  margin-right: 20px}
+  .navbar-end {
+    margin-left: 20px;
+  }
+}
+img.logo{
+  height:45px;
 }
 
 
 .navbar-item{
   color: white;
-  ffont-family: 'Domine', serif;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Domine', serif;
+  transition: .6s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  &:hover.navbar-item {
+// we use & because we are styling with SASS for hover
+    color: white;
+    background: transparent;
+    border-top: 4px solid black;
+  }
 }
 
 .navbar-burger {
-    color: #444444;
+    color: black;
     cursor: pointer;
     display: block;
     height: 3.25rem;
@@ -140,11 +167,7 @@ body {
     margin-left: auto;
 }
 
-.navbar-menu {
-  background-color: #444444;
-  box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
-  padding: 0.5rem 0;
-}
+
 
 //======================================================= > About
 .aboutcontainer {
@@ -159,6 +182,12 @@ h2.title.is-2.abouttitle{
   color: white;
   padding-left: 30px;
   margin-top: 25px;
+}
+
+.aboutlogo{
+  height: 45px;
+  margin-left: 25px;
+  margin-top: 50px;
 }
 
 .intro, .interest {
