@@ -11,6 +11,7 @@ class Skills extends React.Component{
             <div className="columns is-multiline">
 
               <div className="column is-full-desktop is-full-tablet">
+                <img className="aboutlogo" src="https://imgur.com/07QH95m.png"/>
 
                 <h2 className="black-title is-half-desktop is-multiline is-full-tablet">skills & experience.</h2>
 

@@ -60,8 +60,10 @@ class Projects extends React.Component{
 
           <div className="container">
 
-            <h2 className="black-title is-full-tablet projectstitle">projects.</h2>
+            <img className="aboutlogo" src="https://imgur.com/07QH95m.png"/>
 
+            <h2 className="black-title is-full-tablet projectstitle">projects.</h2>
+            
             <div className="columns is-multiline">
               {this.state.data.map(projectCard =>
                 <div key={projectCard.id} className={classes}>

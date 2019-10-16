@@ -46,7 +46,6 @@ body {
 .black-title {
   font-family: 'Domine', serif;
   font-size: 48px;
-  margin: 0;
   color: black;
   display: flex;
   flex-direction: column;
@@ -192,13 +191,12 @@ img.logo{
 h2.black-title.abouttitle{
   color: white;
   padding-left: 30px;
-  margin-top: 25px;
 }
 
 .aboutlogo{
   height: 45px;
   margin-left: 25px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .intro, .interest {
@@ -410,7 +408,7 @@ h2.title.is-2.contact{
   margin-left: 15px;
 }
 small{
-  margin-left: 600px;
+  margin-left: 450px;
   text-align: center;
   font-size: 15px;
   color: white;

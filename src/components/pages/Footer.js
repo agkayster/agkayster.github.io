@@ -5,6 +5,7 @@ class Footer extends React.Component{
     return(
       <footer>
         <div id="contact" className="contactcontainer">
+          <img className="aboutlogo" src="https://imgur.com/07QH95m.png"/>
           <h2 className="title is-2 contact">contact.</h2>
 
 
@@ -13,7 +14,7 @@ class Footer extends React.Component{
           <a href="https://www.linkedin.com/in/ejike-chiboka-pmp/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
           <a href="https://www.twitter.com/agkayster" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
 
-          <span><small>© ejike.chiboka</small></span>
+          <span><small>Developed by Ejike Chiboka | © 2019</small></span>
         </div>
       </footer>
 
