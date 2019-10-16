@@ -42,7 +42,66 @@ body {
     min-height: 100vh;
     margin-top: 45px;
 }
+
+.black-title {
+  font-family: 'Domine', serif;
+  font-size: 48px;
+  margin: 0;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
 //======================================================= > All Sections
+// .section {
+//   padding: 0rem;
+//   border-bottom: black;
+// }
+//======================================================= > Navbar
+.navbar {
+  background-color:#444444;
+  .navbar-menu {
+    background-color: #444444;
+    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    padding: 0.5rem 0;
+    justify-content: center;
+  }
+  .navbar-start {
+  margin-right: 20px}
+  .navbar-end {
+    margin-left: 20px;
+  }
+}
+img.logo{
+  height:45px;
+}
+
+
+.navbar-item{
+  color: white;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Domine', serif;
+  transition: .6s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  &:hover.navbar-item {
+// we use & because we are styling with SASS for hover
+    color: white;
+    background: transparent;
+    border-top: 4px solid black;
+  }
+}
+
+.navbar-burger {
+    color: black;
+    cursor: pointer;
+    display: block;
+    height: 3.25rem;
+    position: relative;
+    width: 3.25rem;
+    margin-left: auto;
+}
 
 //=======================================================> Home
 #section07 {
@@ -61,8 +120,9 @@ body {
   background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
 }
 
-.section.home{
-  padding:0rem;
+
+.home{
+  padding: 5px;
 }
 
 
@@ -119,58 +179,9 @@ body {
     opacity: 0;
   }
 }
-//======================================================= > Navbar
-.navbar {
-  background-color:#444444;
-  margin-top: 5px;
-  .navbar-menu {
-    background-color: #444444;
-    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
-    padding: 0.5rem 0;
-    justify-content: center;
-  }
-  .navbar-start {
-  margin-right: 20px}
-  .navbar-end {
-    margin-left: 20px;
-  }
-}
-img.logo{
-  height:45px;
-}
-
-
-.navbar-item{
-  color: white;
-  padding-top: 10px;
-  font-weight: bold;
-  font-size: 22px;
-  font-family: 'Domine', serif;
-  transition: .6s ease-in-out;
-  cursor: pointer;
-  display: flex;
-  &:hover.navbar-item {
-// we use & because we are styling with SASS for hover
-    color: white;
-    background: transparent;
-    border-top: 4px solid black;
-  }
-}
-
-.navbar-burger {
-    color: black;
-    cursor: pointer;
-    display: block;
-    height: 3.25rem;
-    position: relative;
-    width: 3.25rem;
-    margin-left: auto;
-}
-
-
 
 //======================================================= > About
-.aboutcontainer {
+#about {
     min-height: 100vh;
     background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/diagonal-squares.png');
     color: white;
@@ -178,7 +189,7 @@ img.logo{
     background-size: contain;
 }
 
-h2.title.is-2.abouttitle{
+h2.black-title.abouttitle{
   color: white;
   padding-left: 30px;
   margin-top: 25px;
@@ -206,11 +217,6 @@ h2.title.is-2.abouttitle{
 .content {
   padding: 30px;
 }
-
-.section.about{
-  padding:0rem;
-}
-
 
 .contentcontainer{
   display: flex;
@@ -258,11 +264,9 @@ h2.title.is-2.abouttitle{
   }
 }
 
-.section.skills{
-  padding:0rem;
-}
 
-.skillscontainer {
+
+#skills {
     min-height: 100vh;
     background-image: url('http://www.radioonixlapunta.com/images/background-wood.jpg');
     color: white;
@@ -284,15 +288,19 @@ h2.title.is-2.abouttitle{
 }
 .expbfe{
   padding:10px;
+  color: white;
 }
 .expzain{
   padding:10px;
+  color: white;
 }
 .expericsson{
   padding:10px;
+  color: white;
 }
 .expglo{
   padding:10px;
+  color: white;
 }
 
 h2.title.is-2.skillstitle{
@@ -324,18 +332,13 @@ div.project-links {
   align-items: center;
   justify-content: center;
 }
-
-.section.projects{
-  padding:0rem 0rem 0rem;
-  margin-bottom: 40px;
-}
 //
 .technology {
   font-size: 14px;
   margin: 5px;
 }
 
-.projectsscontainer {
+#projects {
     min-height: 100vh;
     color: white;
     width: 100%;
@@ -394,6 +397,7 @@ img.project-links-web:hover{
   background-color: rgba(10, 10, 10, 0.1);
   min-height: 30vh;
   padding: 30px;
+  margin-top: 40px;
   background-image:url('http://www.1centurionpromotions.com/images/patterns/roof.png')
   // background-image:url('./images/hotel-wallpaper-black.png')
 }

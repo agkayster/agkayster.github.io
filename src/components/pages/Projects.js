@@ -55,12 +55,12 @@ class Projects extends React.Component{
   render(){
     const classes = 'column is-mutiline is-half-desktop is-full-tablet is-full-mobile'
     return(
-      <section className="section projects">
-        <div id="projects" className="projects">
+      <div id="projects">
+        <section className="section projects">
 
-          <div className="projectscontainer">
+          <div className="container">
 
-            <h2 className="title is-2 is-full-tablet projectstitle">projects.</h2>
+            <h2 className="black-title is-full-tablet projectstitle">projects.</h2>
 
             <div className="columns is-multiline">
               {this.state.data.map(projectCard =>
@@ -71,8 +71,8 @@ class Projects extends React.Component{
               )}
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
     )
   }
