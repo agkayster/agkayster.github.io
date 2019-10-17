@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Navbar from './components/common/Navbar'
+
 import Home from './components/pages/Home'
+import Navbar from './components/common/Navbar'
 import About from './components/pages/About'
 import Skills from './components/pages/Skills'
 import Projects from './components/pages/Projects'
@@ -18,8 +19,8 @@ class App extends React.Component{
   render(){
     return(
       <main>
-        <Navbar />
         <Home />
+        <Navbar />
         <About />
         <Skills />
         <Projects />
