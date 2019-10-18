@@ -32,7 +32,7 @@ class Projects extends React.Component{
           id: '3',
           title: 'Lost the Plot' ,
           tech: 'Express | NodeJS | React | Webpack | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Heroku| MongoDB| Mongoose',
-          description: 'Lost the plot is a web-site primarily aimed at Londoners who are looking for a plot of land on which to grow their own food (or to help grow food, or take part in other gardening activities).This project has been built as part of a learning module in General Assembly"s Software Engineering Immersive Course using JavaScript and React on the front-end and Express and MongoDB on the back-end.',
+          description: 'Lost the plot is a web-site primarily aimed at Londoners who are looking for a plot of land on which to grow their own food (or to help grow food, or take part in other gardening activities).',
           type: 'Full-Stack',
           image: './images/Lost the Plot.png',
           link: 'https://bit.ly/2n22bJ9',
