@@ -25,6 +25,7 @@ class App extends React.Component{
         <Skills />
         <Projects />
         <Footer />
+
       </main>
 
     )

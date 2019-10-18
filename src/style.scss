@@ -33,15 +33,10 @@ body {
 .hero-body {
     flex-grow: 1;
     flex-shrink: 0;
+    margin-bottom: 35px;
 }
 
-.hero-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin-top: 45px;
-}
+
 
 .black-title {
   font-family: 'Domine', serif;
@@ -51,10 +46,7 @@ body {
   flex-direction: column;
 }
 //======================================================= > All Sections
-// .section {
-//   padding: 0rem;
-//   border-bottom: black;
-// }
+
 //======================================================= > Navbar
 .navbar {
   background-color:#444444;
@@ -71,7 +63,7 @@ body {
   }
 }
 img.logo{
-  height:45px;
+  height:40px;
 }
 
 
@@ -103,13 +95,15 @@ img.logo{
 }
 
 //=======================================================> Home
-
-#about {
+#home {
     min-height: 100vh;
-    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/diagonal-squares.png');
+    background-image: url('https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/02/non-tech-person-working-at-tech-comapny.jpg');
     color: white;
     width: 100%;
     background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #section07 {
   position: relative;
@@ -131,6 +125,12 @@ img.logo{
 .home{
   padding: 5px;
 }
+h1{
+  color: black;
+}
+h2.home.subtitle.is-4{
+  color: black;
+}
 
 
 
@@ -141,6 +141,7 @@ img.logo{
   width: 24px;
   height: 24px;
   margin-left: -12px;
+  color:blue;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: rotate(-45deg);
@@ -326,13 +327,7 @@ p.title.is-2 {
   color: black;
   text-align: center;
 }
-// //
-// // div.columns.is-multiline {
-// //   display: flex;
-// //   justify-content: center;
-// //   align-items: center;
-// // }
-//
+
 div.project-links {
   display: flex;
   align-items: center;
@@ -347,6 +342,7 @@ div.project-links {
 #projects {
     min-height: 100vh;
     color: white;
+    background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
     width: 100%;
     background-size: contain;
 }
@@ -386,12 +382,7 @@ img.project-links-web:hover{
   -moz-box-sizing:border-box;
   box-sizing: border-box;
 }
-//
-// .container{
-//   padding: 1em 0;
-//   float: left;
-//   width: 50%;
-// }
+
 .project_card{
   width: 600px;
   padding: 25px;
@@ -428,19 +419,13 @@ small{
     width: 100%;
   }
 }
-//
-// @media screen and (min-width: 900px){
-//   // .container{
-//   //   width: 33.33333%;
-//   // }
-// }
-//
+
 .container .title{
   color: #1a1a1a;
   text-align: left;
   margin-bottom: 10px;
 }
-//
+
 .content {
   position: relative;
   // width: 90%;
