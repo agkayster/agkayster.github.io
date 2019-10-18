@@ -5,6 +5,7 @@
   "repository": "git@github.com:agkayster/agkayster.github.io.git",
   "author": "Ejike Chiboka <ejike.chiboka@gmail.com>",
   "license": "MIT",
+  "homepage": "https://agkayster.github.io/agkayster.github.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
