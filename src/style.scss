@@ -97,7 +97,7 @@ img.logo{
 //=======================================================> Home
 #home {
     min-height: 100vh;
-    background-image: url('https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/02/non-tech-person-working-at-tech-comapny.jpg');
+    background-image: url('https://jeconsultingllc.com/wp-content/uploads/2016/07/tech-background-image-1-1.jpg');
     color: white;
     width: 100%;
     background-size: contain;
@@ -125,11 +125,14 @@ img.logo{
 .home{
   padding: 5px;
 }
-h1{
-  color: black;
+h1.home.title.is-1{
+  color: white;
+  opacity: 1;
 }
 h2.home.subtitle.is-4{
-  color: black;
+  color: white;
+  opacity: 1.5;
+
 }
 
 
