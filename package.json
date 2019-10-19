@@ -1,16 +1,16 @@
 {
+  "homepage": "https://agkayster.github.io/agkayster.github.io",
   "name": "agkayster.github.io",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:agkayster/agkayster.github.io.git",
   "author": "Ejike Chiboka <ejike.chiboka@gmail.com>",
   "license": "MIT",
-  "homepage": "https://agkayster.github.io/agkayster.github.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack -p",
     "serve": "webpack-dev-server --mode=development",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
