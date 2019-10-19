@@ -1,5 +1,4 @@
 {
-  "homepage": "https://agkayster.github.io/agkayster.github.io",
   "name": "agkayster.github.io",
   "version": "1.0.0",
   "main": "index.js",
@@ -10,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p",
     "serve": "webpack-dev-server --mode=development",
-    "deploy": "yarn build && gh-pages -d dist"
+    "deploy": "yarn build && gh-pages -d dist",
+    "clean": "rm -rf node_modules/gh-pages/.cache"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
