@@ -6,11 +6,8 @@
   "author": "Ejike Chiboka <ejike.chiboka@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p",
-    "serve": "webpack-dev-server --mode=development",
-    "deploy": "yarn build && gh-pages -d dist",
-    "clean": "rm -rf node_modules/gh-pages/.cache"
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
