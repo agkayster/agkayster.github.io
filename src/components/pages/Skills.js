@@ -117,7 +117,7 @@ class Skills extends React.Component{
               <div className="exp">
                 <div className="expga">
                   <p>GENERAL ASSEMBLY SOFTWARE ENGINEERING IMMERSIVE, LONDON, JUNE till  SEPTEMBER 2019:<br />
-                  This was a 12 weeks Software Engineering Immersive course that was focused on learning and developing the following software skills which are: HTML, CSS, GIT, JavaScript(ES6), Node.js, Express, React.js, Public and Restful API’s, Python, Django, MongoDB (NoSQL), PostgreSQL, CRUD API and DOM manipulation, this was a combination of both Frontend and Backend.<br />
+                  This was a 12 weeks Software Engineering Immersive course that was focused on learning and developing the following software skills which are: HTML, CSS, GIT, JavaScript(ES6), Node.js, Express, React.js, Public and Restful API’s, Python, Django, MongoDB (NoSQL5), PostgreSQL, CRUD API and DOM manipulation, this was a combination of both Frontend and Backend.<br />
                    We were also made to build four separate web applications using Full Stack applications as part of our four different projects, two of those projects were group projects while the remaining two were solo projects.
                   </p>
                 </div>
