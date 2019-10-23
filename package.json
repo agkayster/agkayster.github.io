@@ -1,0 +1,36 @@
+{
+  "name": "agkayster.github.io",
+  "version": "1.0.0",
+  "homepage": "https://agkayster.github.io/agkayster.github.io",
+  "main": "index.js",
+  "repository": "git@github.com:agkayster/agkayster.github.io.git",
+  "author": "Ejike Chiboka <ejike.chiboka@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack -p",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "babel-loader": "^8.0.6",
+    "bulma": "^0.8.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "gh-pages": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "path": "^0.12.7",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-router-dom": "^5.1.2",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
