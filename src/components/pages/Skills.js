@@ -118,14 +118,20 @@ class Skills extends React.Component{
                 <div className="expga">
                   <p>GENERAL ASSEMBLY SOFTWARE ENGINEERING IMMERSIVE, LONDON, JUNE till  SEPTEMBER 2019:<br />
                   This was a 12 weeks Software Engineering Immersive course that was focused on learning and developing the following software skills which are: HTML, CSS, GIT, JavaScript(ES6), Node.js, Express, React.js, Public and Restful API’s, Python, Django, MongoDB (NoSQL5), PostgreSQL, CRUD API and DOM manipulation, this was a combination of both Frontend and Backend.<br />
+                    <div className="skillsparagraph">
                    We were also made to build four separate web applications using Full Stack applications as part of our four different projects, two of those projects were group projects while the remaining two were solo projects.
+                    </div>
                   </p>
                 </div>
                 <div className="expbfe">
                   <p>BLUEFLAME ENGINEERING LTD, OPERATIONS DIRECTOR, LAGOS, NIGERIA JULY 2013 till JUNE 2019:<br />
                     As a Director of Operations of a startup, my job was to ensure that all projects that were running for which we were deploying IT software solutions for our clients, were completed within the designed completion period.<br />
+                    <div className="skillsparagraph">
                     Ensure that revenue being generated was tracked.<br />
+                    </div>
+                    <div className="skillsparagraph">
                     Reduction in organizational expenditure by applying cost-cutting measures while acquiring relevant resources for organizational growth.<br />
+                    </div>
                   </p>
                 </div>
                 <div className="expglo">
