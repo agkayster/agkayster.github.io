@@ -73,7 +73,7 @@ img.logo{
   font-weight: bold;
   font-size: 22px;
   font-family: 'Domine', serif;
-  transition: .6s ease-in-out;
+  transition: .2s ease-in-out;
   cursor: pointer;
   display: flex;
   &:hover.navbar-item {
@@ -194,14 +194,14 @@ h2.home.subtitle.is-4{
 //======================================================= > About
 #about {
     min-height: 100vh;
-    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/diagonal-squares.png');
+    background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
     color: white;
     width: 100%;
     background-size: contain;
 }
 
 h2.black-title.abouttitle{
-  color: white;
+  color: black;
   padding-left: 30px;
 }
 
@@ -230,6 +230,12 @@ h2.black-title.abouttitle{
 
 .contentcontainer{
   display: flex;
+}
+.introparagraph{
+  margin-top: 15px;
+}
+.interestparagraph{
+  margin-top: 15px;
 }
 
 
@@ -278,7 +284,7 @@ h2.black-title.abouttitle{
 
 #skills {
     min-height: 100vh;
-    background-image: url('http://www.radioonixlapunta.com/images/background-wood.jpg');
+    background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
     color: white;
     width: 100%;
     background-size: contain;
@@ -316,6 +322,9 @@ h2.black-title.abouttitle{
 h2.title.is-2.skillstitle{
   padding-left: 30px;
   margin-top: 25px;
+}
+.skillsparagraph{
+  margin-top: 15px;
 }
 
 //================================================================== > Projects
