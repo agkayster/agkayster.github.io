@@ -73,7 +73,7 @@ img.logo{
   font-weight: bold;
   font-size: 22px;
   font-family: 'Domine', serif;
-  transition: .6s ease-in-out;
+  transition: .2s ease-in-out;
   cursor: pointer;
   display: flex;
   &:hover.navbar-item {
@@ -97,7 +97,7 @@ img.logo{
 //=======================================================> Home
 #home {
     min-height: 100vh;
-    background-image: url('https://image.freepik.com/free-vector/digital-business-background_43778-364.jpg');
+    background-image: url('https://i.ytimg.com/vi/gL7tJ5pq0DU/maxresdefault.jpg');
     color: white;
     width: 100%;
     background-size: cover;
@@ -198,11 +198,12 @@ h2.home.subtitle.is-4{
     background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
     color: white;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no repeat;
 }
 
 h2.black-title.abouttitle{
-  color: white;
+  color: black;
   padding-left: 30px;
 }
 
@@ -231,6 +232,12 @@ h2.black-title.abouttitle{
 
 .contentcontainer{
   display: flex;
+}
+.introparagraph{
+  margin-top: 20px;
+}
+.interestparagraph{
+  margin-top: 20px;
 }
 
 
@@ -317,6 +324,10 @@ h2.black-title.abouttitle{
 h2.title.is-2.skillstitle{
   padding-left: 30px;
   margin-top: 25px;
+}
+
+.skillsparagraph{
+  margin-top: 20px;
 }
 
 //================================================================== > Projects
