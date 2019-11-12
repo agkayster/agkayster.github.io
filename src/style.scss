@@ -73,7 +73,7 @@ img.logo{
   font-weight: bold;
   font-size: 22px;
   font-family: 'Domine', serif;
-  transition: .2s ease-in-out;
+  transition: .6s ease-in-out;
   cursor: pointer;
   display: flex;
   &:hover.navbar-item {
@@ -97,10 +97,11 @@ img.logo{
 //=======================================================> Home
 #home {
     min-height: 100vh;
-    background-image: url('https://jeconsultingllc.com/wp-content/uploads/2016/07/tech-background-image-1-1.jpg');
+    background-image: url('https://image.freepik.com/free-vector/digital-business-background_43778-364.jpg');
     color: white;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,14 +195,14 @@ h2.home.subtitle.is-4{
 //======================================================= > About
 #about {
     min-height: 100vh;
-    background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/diagonal-squares.png');
     color: white;
     width: 100%;
     background-size: contain;
 }
 
 h2.black-title.abouttitle{
-  color: black;
+  color: white;
   padding-left: 30px;
 }
 
@@ -230,12 +231,6 @@ h2.black-title.abouttitle{
 
 .contentcontainer{
   display: flex;
-}
-.introparagraph{
-  margin-top: 15px;
-}
-.interestparagraph{
-  margin-top: 15px;
 }
 
 
@@ -284,7 +279,7 @@ h2.black-title.abouttitle{
 
 #skills {
     min-height: 100vh;
-    background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
+    background-image: url('http://www.radioonixlapunta.com/images/background-wood.jpg');
     color: white;
     width: 100%;
     background-size: contain;
@@ -322,9 +317,6 @@ h2.black-title.abouttitle{
 h2.title.is-2.skillstitle{
   padding-left: 30px;
   margin-top: 25px;
-}
-.skillsparagraph{
-  margin-top: 15px;
 }
 
 //================================================================== > Projects
