@@ -37,7 +37,7 @@ class Skills extends React.Component{
                     <span className="tech-logos">CSS3</span>
                   </li>
                   <li >
-                    <img src="./images/JavaScript_logo.svg" />
+                    <img src="./images/javaScript_logo.svg" />
                     <span className="tech-logos">JavaScript</span>
                   </li>
                   <li >
