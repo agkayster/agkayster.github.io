@@ -42,7 +42,7 @@ class Projects extends React.Component{
           id: '4',
           title: 'Gympro',
           tech: 'Python | Django | PostgreSQL | React | Webpack | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Heroku| Babel',
-          description: 'Gympro is a web application primarily aimed at those who love to go to the gym and work out. It allows users: 1. Search for exercises for each category of the body e.g. Thighs, Legs, Shoulders, Chest, Core and Arms. 2. Create workout programmes like Summer Body,etc.',
+          description: 'Gympro is a web application primarily aimed at those who love to go to the gym and work out. It allows users: 1. Search for exercises for each category of the body e.g. Thighs, Legs and Shoulders. 2. Create workout programmes.',
           type: 'Full Stack',
           image: './images/GymproApp.png',
           link: 'https://bit.ly/2n24agz',
