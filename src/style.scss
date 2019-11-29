@@ -120,7 +120,7 @@ img.logo{
     margin-left: auto;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 425px) {
   .navbar > .container{
     width: 80%;
   }
@@ -258,12 +258,12 @@ h2.home.subtitle.is-4{
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 425px) {
   #home {
       min-height: 100vh;
       background-image: url('https://i.ytimg.com/vi/gL7tJ5pq0DU/maxresdefault.jpg');
       color: white;
-      width: 180%;
+      width: 205%;
       background-size: cover;
       display: flex;
       align-items: center;
@@ -331,17 +331,29 @@ h2.black-title.abouttitle{
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 425px) {
   #about {
       min-height: 100vh;
       background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
       color: white;
-      width: 180%;
+      width: 205%;
       display: inline-block;
       background-size: contain;
   }
   .contentcontainer{
     display: block;
+  }
+
+  .intro, .interest {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+
+  .interest {
+    margin-top: 20px;
+    margin-right: 30px;
+
   }
 }
 
@@ -448,17 +460,21 @@ h2.title.is-2.skillstitle{
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 425px) {
   #skills {
       min-height: 100vh;
       background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
       color: white;
-      width: 180%;
+      width: 205%;
       background-size: contain;
   }
   div.exp{
     margin:40px;
   }
+
+  .black-title {
+    margin-left: 10px;
+}
 }
 
 // @media only screen and (min-width: 600px) {
@@ -540,12 +556,12 @@ img.project-links-web:hover{
   padding: 25px;
   margin-bottom: 100px;
 }
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 425px) {
   #projects {
       min-height: 100vh;
       color: white;
       background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
-      width: 180%;
+      width: 205%;
       background-size: contain;
   }
   p.title.is-2 {
@@ -702,13 +718,13 @@ small{
   font-size: 15px;
   color: white;
 }
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 425px) {
   .contactcontainer {
     background-color: rgba(10, 10, 10, 0.1);
     min-height: 30vh;
     padding: 30px;
     margin-top: 40px;
-    width: 180%;
+    width: 205%;
     background-image:url('http://www.1centurionpromotions.com/images/patterns/roof.png')
   }
   small{
