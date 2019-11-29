@@ -102,7 +102,7 @@ img.logo{
 }
 
 .navbar-burger {
-    color: black;
+    color: #444444;
     cursor: pointer;
     display: block;
     height: 3.25rem;
@@ -117,6 +117,10 @@ img.logo{
   }
   .navbar {
       width: 100%;
+    }
+
+    .navbar-burger {
+        color: black;
     }
 }
 // @media only screen and (max-width: 820px) {
