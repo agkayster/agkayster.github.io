@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProjectCard = ({ description, tech, title, type, image, link, git }) => {
   return(
-    <section className="section">
+    <section className="section projectCard">
 
 
       <div className="column is-one-half project_card">
