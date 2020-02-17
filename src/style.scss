@@ -1,33 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Domine|Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Domine|Ubuntu&display=swap");
 
-$family-primary: 'Domine', cursive;
-$family-secondary: 'Ubuntu', sans-serif;
+$family-primary: "Domine", cursive;
+$family-secondary: "Ubuntu", sans-serif;
 
 $navbar-background-color: #444444;
 $lime: #91ff35;
 
-
-
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 
 @media only screen and (max-width: 425px) {
   html {
-  	scroll-behavior: smooth;
+    scroll-behavior: smooth;
     overflow-x: hidden;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .section .projectCard {
-  	height: 35vh;
+    height: 35vh;
   }
 }
 
@@ -41,22 +38,21 @@ html {
   background-attachment: fixed;
 }
 
-
-
 body {
-	font-family: 'Domine', serif;
-	-webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
-     display: block;
+  font-family: "Domine", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
 }
 
 @media only screen and (max-width: 425px) {
   body {
-  	overflow-x: hidden;
+    overflow-x: hidden;
   }
 }
 
-.hero-body, .hero-sub {
+.hero-body,
+.hero-sub {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -67,13 +63,14 @@ body {
 }
 
 .hero-body {
-    flex-grow: 1;
-    flex-shrink: 0;
-    margin-bottom: 35px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin-bottom: 35px;
 }
 
 @media only screen and (max-width: 425px) {
-  .hero-body, .hero-sub {
+  .hero-body,
+  .hero-sub {
     // width: 100%;
     width: 100vw;
     background-attachment: local;
@@ -81,7 +78,7 @@ body {
 }
 
 .black-title {
-  font-family: 'Domine', serif;
+  font-family: "Domine", serif;
   font-size: 48px;
   color: black;
   display: flex;
@@ -91,7 +88,7 @@ body {
 
 //======================================================= > Navbar
 .navbar {
-  background-color:#444444;
+  background-color: #444444;
   .navbar-menu {
     background-color: #444444;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
@@ -99,28 +96,27 @@ body {
     justify-content: center;
   }
   .navbar-start {
-  margin-right: 20px;
-}
+    margin-right: 20px;
+  }
   .navbar-end {
     margin-left: 20px;
   }
 }
-img.logo{
-  height:40px;
+img.logo {
+  height: 40px;
 }
 
-
-.navbar-item{
+.navbar-item {
   color: white;
   padding-top: 10px;
   font-weight: bold;
   font-size: 22px;
-  font-family: 'Domine', serif;
-  transition: .2s ease-in-out;
+  font-family: "Domine", serif;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
   display: flex;
   &:hover.navbar-item {
-// we use & because we are styling with SASS for hover
+    // we use & because we are styling with SASS for hover
     color: white;
     background: transparent;
     border-top: 4px solid black;
@@ -128,39 +124,39 @@ img.logo{
 }
 
 .navbar-burger {
-    color: #444444;
-    cursor: pointer;
-    display: block;
-    height: 3.25rem;
-    position: relative;
-    width: 3.25rem;
-    margin-left: auto;
+  color: #444444;
+  cursor: pointer;
+  display: block;
+  height: 3.25rem;
+  position: relative;
+  width: 3.25rem;
+  margin-left: auto;
 }
 
 @media only screen and (max-width: 425px) {
-  .navbar > .container{
+  .navbar > .container {
     width: 80%;
   }
   .navbar {
-      width: auto;
-    }
+    width: auto;
+  }
 
-    .navbar-burger {
-        color: red;
-    }
+  .navbar-burger {
+    color: red;
+  }
 }
 
 //=======================================================> Home
 #home {
-    min-height: 100vh;
-    background-image: url('https://i.ytimg.com/vi/gL7tJ5pq0DU/maxresdefault.jpg');
-    color: white;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  min-height: 100vh;
+  background-image: url("https://i.ytimg.com/vi/gL7tJ5pq0DU/maxresdefault.jpg");
+  color: white;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #section07 {
   position: relative;
@@ -174,25 +170,31 @@ img.logo{
   left: 0;
   width: 100%;
   height: 80%;
-  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
-  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.8) 80%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.8) 80%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
 
-
-.home{
+.home {
   padding: 5px;
 }
-h1.home.title.is-1{
+h1.home.title.is-1 {
   color: white;
   opacity: 1;
 }
-h2.home.subtitle.is-4{
+h2.home.subtitle.is-4 {
   color: white;
   opacity: 1.5;
-
 }
-
-
 
 #section07 a span {
   position: absolute;
@@ -201,7 +203,7 @@ h2.home.subtitle.is-4{
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  color:blue;
+  color: blue;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: rotate(-45deg);
@@ -217,13 +219,13 @@ h2.home.subtitle.is-4{
 }
 #section07 a span:nth-of-type(2) {
   top: 16px;
-  -webkit-animation-delay: .15s;
-  animation-delay: .15s;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
 }
 #section07 a span:nth-of-type(3) {
   top: 32px;
-  -webkit-animation-delay: .3s;
-  animation-delay: .3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 @-webkit-keyframes sdb07 {
   0% {
@@ -250,39 +252,40 @@ h2.home.subtitle.is-4{
 
 @media only screen and (max-width: 425px) {
   #home {
-      min-height: 100vh;
-      background-image: url('https://i.ytimg.com/vi/gL7tJ5pq0DU/maxresdefault.jpg');
-      color: white;
-      width: 105%;
-      background-size: cover;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://i.ytimg.com/vi/gL7tJ5pq0DU/maxresdefault.jpg");
+    color: white;
+    width: 105%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 //======================================================= > About
 #about {
-    min-height: 100vh;
-    background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
-    color: white;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no repeat;
+  min-height: 100vh;
+  background-image: url("https://imgur.com/3cp0zMR");
+  color: white;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no repeat;
 }
 
-h2.black-title.abouttitle{
+h2.black-title.abouttitle {
   color: black;
   padding-left: 30px;
 }
 
-.aboutlogo{
+.aboutlogo {
   height: 45px;
   margin-left: 25px;
   margin-top: 30px;
 }
 
-.intro, .interest {
+.intro,
+.interest {
   background-color: black;
   opacity: 0.5;
   font-weight: bold;
@@ -293,47 +296,46 @@ h2.black-title.abouttitle{
 
 .interest {
   margin: 20px;
-
 }
 .content {
   padding: 30px;
 }
 
-.contentcontainer{
+.contentcontainer {
   display: flex;
 }
-.introparagraph{
+.introparagraph {
   margin-top: 20px;
 }
-.interestparagraph{
+.interestparagraph {
   margin-top: 20px;
 }
 
 @media only screen and (max-width: 425px) {
   #about {
-      min-height: 100vh;
-      background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
-      color: white;
-      width: 105%;
-      display: inline-block;
-      background-size: contain;
+    min-height: 100vh;
+    background-image: url("https://imgur.com/3cp0zMR");
+    color: white;
+    width: 105%;
+    display: inline-block;
+    background-size: contain;
   }
-  .contentcontainer{
+  .contentcontainer {
     display: block;
   }
 
-  .intro, .interest {
+  .intro,
+  .interest {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 30px;
-    padding:15px;
+    padding: 15px;
   }
 
   .interest {
     margin-top: 20px;
     margin-right: 30px;
     padding: 15px;
-
   }
 }
 
@@ -378,14 +380,12 @@ h2.black-title.abouttitle{
   }
 }
 
-
-
 #skills {
-    min-height: 100vh;
-    background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
-    color: white;
-    width: 100%;
-    background-size: contain;
+  min-height: 100vh;
+  background-image: url("https://imgur.com/3cp0zMR");
+  color: white;
+  width: 100%;
+  background-size: contain;
 }
 
 .exp {
@@ -396,63 +396,74 @@ h2.black-title.abouttitle{
   border-radius: 55px;
   margin: 80px;
 }
-.expga{
-  padding:10px;
+.expga {
+  padding: 10px;
   color: white;
 }
-.expbfe{
-  padding:10px;
+.expbfe {
+  padding: 10px;
   color: white;
 }
-.expzain{
-  padding:10px;
+.expzain {
+  padding: 10px;
   color: white;
 }
-.expericsson{
-  padding:10px;
+.expericsson {
+  padding: 10px;
   color: white;
 }
-.expglo{
-  padding:10px;
+.expglo {
+  padding: 10px;
   color: white;
 }
 
-h2.title.is-2.skillstitle{
+h2.title.is-2.skillstitle {
   padding-left: 30px;
   margin-top: 25px;
 }
 
-.skillsparagraph{
+.skillsparagraph {
   margin-top: 20px;
 }
 
 @media only screen and (max-width: 425px) {
   #skills {
-      min-height: 100vh;
-      background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
-      color: white;
-      width: 105%;
-      background-size: contain;
+    min-height: 100vh;
+    background-image: url("https://imgur.com/3cp0zMR");
+    color: white;
+    width: 105%;
+    background-size: contain;
   }
-  div.exp{
-    margin:40px;
+  div.exp {
+    margin: 40px;
     padding: 10px;
   }
 
   .black-title {
     margin-left: 10px;
-}
+  }
 
-.tech-list {
-  padding: 10px;
+  .tech-list {
+    padding: 10px;
+  }
 }
-}
-
 
 //================================================================== > Projects
 .projects {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% + 5vw), 50% 100%, 0 calc(100% + 5vw));
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% + 5vw), 50% 100%, 0 calc(100% + 5vw));
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% + 5vw),
+    50% 100%,
+    0 calc(100% + 5vw)
+  );
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% + 5vw),
+    50% 100%,
+    0 calc(100% + 5vw)
+  );
   margin-bottom: -10vw;
 }
 p.title.is-2 {
@@ -473,15 +484,14 @@ div.project-links {
 }
 
 #projects {
-    min-height: 100vh;
-    color: white;
-    background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
-    width: 100%;
-    background-size: contain;
+  min-height: 100vh;
+  color: white;
+  background-image: url("https://imgur.com/3cp0zMR");
+  width: 100%;
+  background-size: contain;
 }
 
-
-h2.title.is-2.projectstitle{
+h2.title.is-2.projectstitle {
   padding-left: 30px;
   margin-top: 25px;
 }
@@ -490,7 +500,7 @@ img.project-links {
   width: 80px;
 }
 
-img.project-links:hover{
+img.project-links:hover {
   animation: pulse 1s infinite;
   animation-timing-function: linear;
 }
@@ -501,33 +511,35 @@ img.project-links-web {
   margin-right: 25px;
 }
 //
-img.project-links-web:hover{
+img.project-links-web:hover {
   animation: pulse 1s infinite;
   animation-timing-function: linear;
 }
 
 // // @import url(https://fonts.googleapis.com/css?family=Raleway);
 //
-*, *:before, *:after{
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing:border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.project_card{
+.project_card {
   width: 600px;
   padding: 25px;
   margin-bottom: 100px;
 }
 @media only screen and (max-width: 425px) {
   #projects {
-      min-height: 100vh;
-      color: white;
-      background-image: url('http://www.grfxpro.com/uploads/img/10032016153955.jpg');
-      width: 105%;
-      background-size: contain;
+    min-height: 100vh;
+    color: white;
+    background-image: url("http://www.grfxpro.com/uploads/img/10032016153955.jpg");
+    width: 105%;
+    background-size: contain;
   }
   p.title.is-2 {
     margin-right: 260px;
@@ -536,10 +548,10 @@ img.project-links-web:hover{
   div.content {
     margin-right: 250px;
   }
-  .section{
+  .section {
     padding: 1.5rem 1.5rem;
   }
-  .container .title{
+  .container .title {
     color: #1a1a1a;
     text-align: left;
     margin-bottom: 10px;
@@ -549,13 +561,13 @@ img.project-links-web:hover{
     position: relative;
     // width: 90%;
     max-width: 700px;
-    margin:auto;
+    margin: auto;
     margin-bottom: 40px;
     overflow: hidden;
   }
   //
   .content .content-overlay {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 80%;
     width: 89%;
@@ -565,12 +577,12 @@ img.project-links-web:hover{
     transition: all 0.4s ease-in-out 0s;
   }
   //
-  .content:hover .content-overlay{
+  .content:hover .content-overlay {
     opacity: 1;
     width: 90%;
   }
   //
-  .content-image{
+  .content-image {
     width: 100%;
   }
   //
@@ -591,7 +603,7 @@ img.project-links-web:hover{
     transition: all 0.3s ease-in-out 0s;
   }
   //
-  .content:hover .content-details{
+  .content:hover .content-details {
     top: 50%;
     left: 50%;
     opacity: 1;
@@ -600,7 +612,7 @@ img.project-links-web:hover{
     width: 88%;
   }
   //
-  .content-details h3{
+  .content-details h3 {
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.15em;
@@ -609,12 +621,12 @@ img.project-links-web:hover{
     text-transform: uppercase;
   }
   //
-  .content-details p{
+  .content-details p {
     color: #fff;
     font-size: 0.9em;
   }
 
-  .fadeIn-bottom{
+  .fadeIn-bottom {
     top: 80%;
   }
 
@@ -639,18 +651,18 @@ img.project-links-web:hover{
   min-height: 30vh;
   padding: 30px;
   margin-top: 40px;
-  background-image:url('http://www.1centurionpromotions.com/images/patterns/roof.png')
+  background-image: url("http://www.1centurionpromotions.com/images/patterns/roof.png");
   // background-image:url('./images/hotel-wallpaper-black.png')
 }
-h2.title.is-2.contact{
+h2.title.is-2.contact {
   color: white;
 }
 
-.svg-inline--fa{
+.svg-inline--fa {
   color: white;
   margin-left: 15px;
 }
-small{
+small {
   margin-left: 450px;
   text-align: center;
   font-size: 15px;
@@ -663,9 +675,9 @@ small{
     padding: 30px;
     margin-top: 40px;
     width: 105%;
-    background-image:url('http://www.1centurionpromotions.com/images/patterns/roof.png')
+    background-image: url("http://www.1centurionpromotions.com/images/patterns/roof.png");
   }
-  small{
+  small {
     margin-left: 10px;
     text-align: center;
     font-size: 15px;
@@ -675,14 +687,14 @@ small{
 
 //
 //=======================================================================>
-@media screen and (max-width: 640px){
-  .container{
+@media screen and (max-width: 640px) {
+  .container {
     display: block;
     width: 100%;
   }
 }
 
-.container .title{
+.container .title {
   color: #1a1a1a;
   text-align: left;
   margin-bottom: 10px;
@@ -692,13 +704,13 @@ small{
   position: relative;
   // width: 90%;
   max-width: 700px;
-  margin:auto;
+  margin: auto;
   margin-bottom: 40px;
   overflow: hidden;
 }
 //
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 80%;
   width: 89%;
@@ -708,12 +720,12 @@ small{
   transition: all 0.4s ease-in-out 0s;
 }
 //
-.content:hover .content-overlay{
+.content:hover .content-overlay {
   opacity: 1;
   width: 90%;
 }
 //
-.content-image{
+.content-image {
   width: 100%;
 }
 //
@@ -734,14 +746,14 @@ small{
   transition: all 0.3s ease-in-out 0s;
 }
 //
-.content:hover .content-details{
+.content:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
   padding: 5px;
 }
 //
-.content-details h3{
+.content-details h3 {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -750,12 +762,12 @@ small{
   text-transform: uppercase;
 }
 //
-.content-details p{
+.content-details p {
   color: #fff;
   font-size: 0.9em;
 }
 
-.fadeIn-bottom{
+.fadeIn-bottom {
   top: 80%;
 }
 
