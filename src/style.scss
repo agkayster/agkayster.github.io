@@ -133,6 +133,12 @@ img.logo {
   margin-left: auto;
 }
 
+@media only screen and (max-width: 800px) {
+  .navbar-burger {
+    color: red;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .navbar > .container {
     width: 80%;
@@ -141,9 +147,9 @@ img.logo {
     width: auto;
   }
 
-  .navbar-burger {
-    color: red;
-  }
+  // .navbar-burger {
+  //   color: red;
+  // }
 }
 
 //=======================================================> Home
