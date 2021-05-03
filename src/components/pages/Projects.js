@@ -13,7 +13,7 @@ class Projects extends React.Component {
           title: 'Space Invaders',
           tech: 'JavaScript (ES6) | HTML5 | CSS framework | SCSS',
           description:
-					'Space Invaders is an entertaining browser-based arcade style game. Challenge your reaction skills by stopping Aliens from invading earth while avoiding getting killed by the same Aliens.It was an individual project built in a week, and was both the first proper game I had built, and my first real-world type practice with JavaScript.',
+						'Space Invaders is an entertaining browser-based arcade style game. Challenge your reaction skills by stopping Aliens from invading earth while avoiding getting killed by the same Aliens.It was an individual project built in a week, and was both the first proper game I had built, and my first real-world type practice with JavaScript.',
           type: 'JavaScript ES6',
           image: './images/Space Invaders.png',
           link: 'https://bit.ly/2nb9zln',
@@ -23,10 +23,10 @@ class Projects extends React.Component {
           id: '2',
           title: 'Books-App',
           tech:
-					'React | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Django | Python | Webpack | Heroku | Babel',
+						'React | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Django | Python | Webpack | Heroku | Babel',
           description:
-					'Books-app is a books aggregator site that is primarily aimed at those who love to read and are looking for information on their favorite books they want to read.',
-          type: 'React App',
+						'Books-app is a books aggregator site that is primarily aimed at those who love to read and are looking for information on their favorite books they want to read.',
+          type: 'Full-Stack',
           image: './images/Books-App.png',
           link: 'https://bit.ly/3xKvUWv',
           git: 'https://bit.ly/2QOqRUd'
@@ -35,9 +35,9 @@ class Projects extends React.Component {
           id: '3',
           title: 'Lost the Plot',
           tech:
-					'Express | NodeJS | React | Webpack | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Heroku| MongoDB| Mongoose',
+						'Express | NodeJS | React | Webpack | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Heroku| MongoDB| Mongoose',
           description:
-					'Lost the plot is a web-site primarily aimed at Londoners who are looking for a plot of land on which to grow their own food (or to help grow food, or take part in other gardening activities).',
+						'Lost the plot is a web-site primarily aimed at Londoners who are looking for a plot of land on which to grow their own food (or to help grow food, or take part in other gardening activities).',
           type: 'Full-Stack',
           image: './images/Lost the Plot.png',
           link: 'https://bit.ly/2n22bJ9',
@@ -47,9 +47,9 @@ class Projects extends React.Component {
           id: '4',
           title: 'Gympro',
           tech:
-					'Python | Django | PostgreSQL | React | Webpack | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Heroku| Babel',
+						'Python | Django | PostgreSQL | React | Webpack | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Heroku| Babel',
           description:
-					'Gympro is a web application primarily aimed at those who love to go to the gym and work out. It allows users: 1. Search for exercises for each category of the body e.g. Thighs, Legs and Shoulders. 2. Create workout programmes.',
+						'Gympro is a web application primarily aimed at those who love to go to the gym and work out. It allows users: 1. Search for exercises for each category of the body e.g. Thighs, Legs and Shoulders. 2. Create workout programmes.',
           type: 'Full Stack',
           image: './images/GymproApp.png',
           link: 'https://bit.ly/2n24agz',
