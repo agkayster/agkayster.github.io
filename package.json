@@ -8,9 +8,9 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack-dev-server --mode=development",
+    "serve": "webpack serve --mode=development",
     "deploy": "yarn run build && gh-pages -d dist -b master",
-    "build": "webpack -p"
+    "build": "webpack --mode production --env production"
   },
   "dependencies": {
     "@babel/core": "^7.14.0",
