@@ -1,29 +1,21 @@
 const path = require('path')
 const webpack = require('webpack')
-const isProd = 'production'
+
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-  mode: 'production',
   entry: './src/app.js',
   output: {
     path: path.resolve('dist'),
     filename: 'bundle.js'
   },
-  devtool: isProd ? false : 'source-map',
+  devtool: 'source-maps',
   module: {
     rules: [
-      {
-        test: /\.jsx?$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/
-      },
-      { test: /\.css$/, use: ['style-loader', 'css-loader'] },
-      {
-        test: /\.s(a|c)ss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader']
-      },
+      { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
+      { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] },
       {
         test: /\.(jpe?g|png|gif|svg)$/,
         use: {
@@ -59,8 +51,8 @@ module.exports = {
       filename: 'index.html',
       inject: 'body'
     }),
-    new CopyWebpackPlugin({
-      patterns: [{ from: 'src/images', to: 'images' }]
-    })
+    new CopyWebpackPlugin([
+      { from: 'src/images', to: 'images'}
+    ])
   ]
 }
