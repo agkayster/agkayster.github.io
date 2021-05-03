@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 
 class Navbar extends React.Component {
   constructor() {
-    super();
+    super()
     this.state = {
       active: false
-    };
-    this.toggleActive = this.toggleActive.bind(this);
+    }
+    this.toggleActive = this.toggleActive.bind(this)
   }
 
   toggleActive() {
-    this.setState({ active: !this.state.active });
+    this.setState({ active: !this.state.active })
   }
 
   render() {
@@ -88,8 +88,8 @@ class Navbar extends React.Component {
           </div>
         </div>
       </nav>
-    );
+    )
   }
 }
 
-export default Navbar;
+export default Navbar
