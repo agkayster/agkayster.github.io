@@ -27,7 +27,7 @@ class Projects extends React.Component {
           description:
 						'Books-app is a books aggregator site that is primarily aimed at those who love to read and are looking for information on their favorite books they want to read.',
           type: 'Full-Stack',
-          image: './images/books-app.png',
+          image: './images/BooksApp.png',
           link: 'https://bit.ly/3xKvUWv',
           git: 'https://bit.ly/2QOqRUd'
         },
