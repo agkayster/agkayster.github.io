@@ -26,7 +26,7 @@ class About extends React.Component {
                         Coding has always intrigued me ever since I wrote my
                         first code as a final year student in University, this
                         was part of my final year project. Since then I have
-                        been passionate about software development and how I can
+                        been passionate about software deveopment and how I can
                         use it to build web applications that would change the
                         world. <br />
                       </div>

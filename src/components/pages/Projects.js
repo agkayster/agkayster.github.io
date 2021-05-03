@@ -26,7 +26,7 @@ class Projects extends React.Component {
 					'React | Ajax | JavaScript (ES6) | HTML5 | Bulma (CSS framework) | SCSS | Django | Python | Webpack | Heroku | Babel',
           description:
 					'Books-app is a books aggregator site that is primarily aimed at those who love to read and are looking for information on their favorite books they want to read.',
-          type: 'Full-Stack',
+          type: 'React App',
           image: './images/Books-App.png',
           link: 'https://bit.ly/3xKvUWv',
           git: 'https://bit.ly/2QOqRUd'
