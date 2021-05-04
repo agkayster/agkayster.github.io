@@ -59,6 +59,8 @@ module.exports = {
       filename: 'index.html',
       inject: 'body'
     }),
-    new CopyWebpackPlugin([{ from: 'src/images', to: 'images' }])
+    new CopyWebpackPlugin({
+      patterns: [{ from: 'src/images', to: 'images' }]
+    })
   ]
 }
